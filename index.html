@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sillon">
+<meta name="theme-color" content="#F3EADB">
+<meta name="description" content="Grave, colore et presse tes propres vinyles.">
+<title>Sillon — presse à vinyles</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body data-scene="home">
+<canvas id="c"></canvas>
+<div id="ui">
+  <header id="top">
+    <div id="steps" class="off"></div>
+    <div class="tr"><span id="streak"></span><span id="coins" class="pill"><i class="coin"></i><b id="coinN">0</b></span></div>
+  </header>
+  <div id="head"><h1 id="title"></h1><p id="hint"></p></div>
+  <footer id="bottom"></footer>
+</div>
+<div id="sheet" class="sheet hidden"></div>
+<div id="toast"></div>
+<script src="js/util.js?v=1"></script>
+<script src="js/audio.js?v=1"></script>
+<script src="js/music.js?v=1"></script>
+<script src="js/disc.js?v=1"></script>
+<script src="js/main.js?v=1"></script>
+<script src="js/scenes.js?v=1"></script>
+<script src="js/meta.js?v=1"></script>
+</body>
+</html>
